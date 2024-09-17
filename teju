@@ -1,0 +1,9 @@
+read -p "enter your age:"age
+echo "$age"
+if [ $age -ge 20 ]; then
+echo "grade is A"
+elif [ $age -ge 70 ]; then
+echo "grade is b"
+else
+echo "Grade is c"
+fi
